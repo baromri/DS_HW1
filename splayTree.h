@@ -13,7 +13,7 @@ public:
     void insertNode(const T& data);
     void findNode(const T& data);
     void deleteNode(const T& data);
-}
+};
 //need to add class iterator
 
 template <class T>
@@ -70,7 +70,7 @@ public:
     bool operator!=(const treeNode& node) const{
         return !(this == node);
     }
-}
+};
 
 
 #endif /* splayTree_h */
